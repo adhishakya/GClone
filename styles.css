@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lucky, input[type=submit] {
+  border: 2px solid rgb(208, 208, 208);
+  border-radius: 4px;
+  height: 5vh;
+  width: 9.5vw;
+  font-size: 14px;
+  background-color: rgb(208, 208, 208);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type=text] {
+  height: 6vh;
+  width: 35vw;
+  border-radius: 50px;
+  border: 2px solid rgb(208, 208, 208);
+  font-size: 20px;
+  background: url(magnify.svg);
+  background-size: 5%;
+  background-position: 1vw;
+  background-repeat: no-repeat;
+  padding-left: 3px;
+  text-indent: 3.3vw;
+}
+
+input[type=text]:focus {
+  height: 6vh;
+  width: 35vw;
+  border-radius: 50px;
+  border: 2px solid rgb(208, 208, 208);
+  font-size: 20px;
+}
+
+input[type=submit] {
+  color: rgb(48, 48, 48);
+}
+
+.lucky a {
+  color: rgb(48, 48, 48);
+}
+
+.otherSearches {
+  display: flex;
+  margin-top: 2vh;
+  margin-left: 83vw;
+}
+.otherSearches a {
+  padding: 0 1vw 0 1vw;
+  font-size: 14px;
+  color: rgb(48, 48, 48);
+}/*# sourceMappingURL=styles.css.map */
