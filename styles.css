@@ -2,7 +2,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.lucky, input[type=submit] {
+.lucky,
+input[type="submit"] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;
   height: 5vh;
@@ -17,7 +18,7 @@ a {
   cursor: pointer;
 }
 
-input[type=text] {
+input[type="text"] {
   height: 6vh;
   width: 35vw;
   border-radius: 50px;
@@ -31,7 +32,7 @@ input[type=text] {
   text-indent: 3.3vw;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   height: 6vh;
   width: 35vw;
   border-radius: 50px;
@@ -39,7 +40,7 @@ input[type=text]:focus {
   font-size: 20px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   color: rgb(48, 48, 48);
 }
 
@@ -52,8 +53,9 @@ input[type=submit] {
   margin-top: 2vh;
   margin-left: 83vw;
 }
+
 .otherSearches a {
   padding: 0 1vw 0 1vw;
   font-size: 14px;
   color: rgb(48, 48, 48);
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
