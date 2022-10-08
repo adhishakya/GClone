@@ -24,21 +24,22 @@ a {
 
 input[type="text"] {
   height: 6vh;
-  width: 35vw;
+  width: 50vw;
   border-radius: 50px;
   border: $border;
   font-size: 20px;
   background: url(magnify.svg);
-  background-size: 5%;
+  background-size: 3.5%;
   background-position: 1vw;
   background-repeat: no-repeat;
+  opacity: 0.5;
   padding-left: 3px;
-  text-indent: 3.3vw;
+  text-indent: 3.5vw;
 }
 
 input[type="text"]:focus {
   height: 6vh;
-  width: 35vw;
+  width: 50vw;
   border-radius: 50px;
   border: $border;
   font-size: 20px;
@@ -57,10 +58,25 @@ input[type="submit"] {
 }
 
 .otherSearches {
+  margin-top: 2vh;
   display: flex;
+  flex-direction: row-reverse;
   a {
     padding: 0 1vw 0 1vw;
     font-size: $headerLinks;
     color: $linksColor;
   }
+}
+
+#searchArea {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchOptions {
+  display: flex;
+  column-gap: 0.8vw;
 }
