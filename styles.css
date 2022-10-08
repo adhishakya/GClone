@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+img {
+  pointer-events: none;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;

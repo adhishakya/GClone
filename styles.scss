@@ -17,6 +17,10 @@ $linksDecoration: none;
   cursor: pointer;
 }
 
+img {
+  pointer-events: none;
+}
+
 a {
   text-decoration: $linksDecoration;
   cursor: pointer;
