@@ -5,7 +5,6 @@
 $headerLinks: 14px;
 $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
-$linksDecoration: none;
 
 %button {
   border: $border;
@@ -22,7 +21,7 @@ img {
 }
 
 a {
-  text-decoration: $linksDecoration;
+  text-decoration: none;
   cursor: pointer;
 }
 
