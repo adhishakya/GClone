@@ -6,6 +6,20 @@ $headerLinks: 14px;
 $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 
+%lightMode {
+  background: #fff;
+  color: $linksColor;
+}
+
+%darkMode {
+  background: #202124;
+  color: #fff;
+}
+
+// body {
+//   @extend %darkMode;
+// }
+
 %button {
   border: $border;
   border-radius: 4px;
@@ -14,10 +28,6 @@ $border: 2px solid rgb(208, 208, 208);
   font-size: 14px;
   background-color: rgb(208, 208, 208);
   cursor: pointer;
-}
-
-img {
-  pointer-events: none;
 }
 
 a {
@@ -61,7 +71,7 @@ input[type="submit"] {
 }
 
 .otherSearches {
-  margin-top: 2vh;
+  margin-top: 4vh;
   display: flex;
   flex-direction: row-reverse;
   margin-right: 2.5vw;
@@ -70,6 +80,13 @@ input[type="submit"] {
     font-size: $headerLinks;
     color: $linksColor;
   }
+}
+
+#darkLight {
+  display: flex;
+  margin-bottom: 1vh;
+  margin-right: 75vw;
+  cursor: pointer;
 }
 
 main {
