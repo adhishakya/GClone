@@ -23,7 +23,7 @@ input[type=text] {
   border-radius: 50px;
   border: 2px solid rgb(208, 208, 208);
   font-size: 20px;
-  background: url(magnify.svg);
+  background: url(/images/magnify.svg);
   background-size: 3.5%;
   background-position: 1vw;
   background-repeat: no-repeat;

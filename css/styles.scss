@@ -6,18 +6,14 @@ $headerLinks: 14px;
 $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 
-%lightMode {
-  background: #fff;
-  color: $linksColor;
-}
+// %lightMode {
+//   background: #fff;
+//   color: $linksColor;
+// }
 
-%darkMode {
-  background: #202124;
-  color: #fff;
-}
-
-// body {
-//   @extend %darkMode;
+// %darkMode {
+//   background: #202124;
+//   color: #fff;
 // }
 
 %button {
@@ -41,7 +37,7 @@ input[type="text"] {
   border-radius: 50px;
   border: $border;
   font-size: 20px;
-  background: url(magnify.svg);
+  background: url(/images/magnify.svg);
   background-size: 3.5%;
   background-position: 1vw;
   background-repeat: no-repeat;

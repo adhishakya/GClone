@@ -5,7 +5,7 @@ let darkLight = document.getElementById("darkLight");
 
 darkLight.onclick = function () {
   document.documentElement.style.background = "#202124";
-  document.getElementById("darkLight").src = "sun.png";
+  document.getElementById("darkLight").src = "/images/sun.png";
 };
 
 function dark() {}
