@@ -2,6 +2,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.darkMode {
+  background: #202124;
+  color: #fff;
+}
+
 .lucky, input[type=submit] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;

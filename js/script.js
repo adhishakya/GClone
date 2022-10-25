@@ -1,16 +1,11 @@
-let darkLight = document.getElementById("darkLight");
+let darkButton = document.getElementById("darkLight");
 
-// darkLight.addEventListener("click", dark());
-// darkLight.addEventListener("click", light());
-
-darkLight.onclick = function () {
-  document.documentElement.style.background = "#202124";
-  document.getElementById("darkLight").src = "/images/sun.png";
+darkButton.onclick = function () {
+  let element = document.body;
+  element.classList.toggle("darkMode");
+  if (darkButton.src.endsWith("/images/moon.png") == true) {
+    darkButton.src = "/images/sun.png";
+  } else if (darkButton.src.endsWith("/images/sun.png") == true) {
+    darkButton.src = "/images/moon.png";
+  }
 };
-
-function dark() {}
-
-// function light() {
-//   document.documentElement.style.background = "#fff";
-//   document.getElementById("darkLight").src = "moon.png";
-// }

@@ -6,15 +6,10 @@ $headerLinks: 14px;
 $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 
-// %lightMode {
-//   background: #fff;
-//   color: $linksColor;
-// }
-
-// %darkMode {
-//   background: #202124;
-//   color: #fff;
-// }
+.darkMode {
+  background: #202124;
+  color: #fff;
+}
 
 %button {
   border: $border;
