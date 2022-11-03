@@ -8,6 +8,9 @@ $border: 2px solid rgb(208, 208, 208);
 
 .darkMode {
   background: #202124;
+}
+
+.darkModeA {
   color: #fff;
 }
 
@@ -53,7 +56,7 @@ input[type="submit"] {
   }
 }
 
-.otherSearches {
+#otherSearches {
   margin-top: 4vh;
   display: flex;
   flex-direction: row-reverse;
