@@ -1,6 +1,6 @@
 let darkButton = document.getElementById("darkLight");
 
-darkButton.onclick = function () {
+darkButton.onclick = () => {
   let element = document.body;
   element.classList.toggle("darkMode");
   if (darkButton.src.endsWith("/images/moon.png") == true) {
