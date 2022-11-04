@@ -5,6 +5,7 @@
 $headerLinks: 14px;
 $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
+$darkLinksColor: rgb(213, 213, 213);
 
 .darkMode {
   background: #202124;
@@ -21,7 +22,7 @@ $border: 2px solid rgb(208, 208, 208);
     opacity: 0.7;
     padding-left: 3px;
     text-indent: 3.5vw;
-    color: rgb(213, 213, 213);
+    color: $darklinkscolor;
   }
   %button {
     border: #303134;
@@ -31,7 +32,7 @@ $border: 2px solid rgb(208, 208, 208);
     font-size: 14px;
     background-color: #303134;
     cursor: pointer;
-    color: rgb(213, 213, 213);
+    color: $darklinkscolor;
   }
   .lucky {
     border: #303134;
@@ -41,9 +42,20 @@ $border: 2px solid rgb(208, 208, 208);
     font-size: 14px;
     background-color: #303134;
     cursor: pointer;
-    color: rgb(213, 213, 213);
+    color: $darklinkscolor;
     a {
-      color: rgb(213, 213, 213);
+      color: $darklinkscolor;
+    }
+  }
+  #otherSearches {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2.5vw;
+    a {
+      padding: 0 1vw 0 1vw;
+      font-size: $headerLinks;
+      color: #fff;
     }
   }
 }

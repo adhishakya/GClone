@@ -43,6 +43,17 @@
 .darkMode .lucky a {
   color: rgb(213, 213, 213);
 }
+.darkMode #otherSearches {
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 2.5vw;
+}
+.darkMode #otherSearches a {
+  padding: 0 1vw 0 1vw;
+  font-size: 14px;
+  color: #fff;
+}
 
 .lucky, input[type=submit] {
   border: 2px solid rgb(208, 208, 208);
