@@ -5,7 +5,7 @@
 .darkMode {
   background: #202124;
 }
-.darkMode input[type=text] {
+.darkMode input[type="text"] {
   height: 6vh;
   width: 50vw;
   border-radius: 50px;
@@ -20,7 +20,8 @@
   text-indent: 3.5vw;
 }
 
-.lucky, input[type=submit] {
+.lucky,
+input[type="submit"] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;
   height: 5vh;
@@ -35,7 +36,7 @@ a {
   cursor: pointer;
 }
 
-input[type=text] {
+input[type="text"] {
   height: 6vh;
   width: 50vw;
   border-radius: 50px;
@@ -50,7 +51,7 @@ input[type=text] {
   text-indent: 3.5vw;
 }
 
-input[type=submit] {
+input[type="submit"] {
   color: rgb(48, 48, 48);
 }
 
@@ -99,5 +100,5 @@ main {
 #searchOptions {
   display: flex;
   -moz-column-gap: 0.8vw;
-       column-gap: 0.8vw;
-}/*# sourceMappingURL=styles.css.map */
+  column-gap: 0.8vw;
+} /*# sourceMappingURL=styles.css.map */
