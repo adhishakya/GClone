@@ -8,6 +8,20 @@ $border: 2px solid rgb(208, 208, 208);
 
 .darkMode {
   background: #202124;
+  input[type="text"] {
+    height: 6vh;
+    width: 50vw;
+    border-radius: 50px;
+    border: $border;
+    font-size: 20px;
+    background: url(/images/magnifyLight.svg);
+    background-size: 3.5%;
+    background-position: 1vw;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    padding-left: 3px;
+    text-indent: 3.5vw;
+  }
 }
 
 %button {
