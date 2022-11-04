@@ -18,10 +18,33 @@ $border: 2px solid rgb(208, 208, 208);
     background-size: 3.5%;
     background-position: 1vw;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
     padding-left: 3px;
     text-indent: 3.5vw;
-    color: #fff;
+    color: rgb(213, 213, 213);
+  }
+  %button {
+    border: #303134;
+    border-radius: 4px;
+    height: 5vh;
+    width: 9.5vw;
+    font-size: 14px;
+    background-color: #303134;
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+  }
+  .lucky {
+    border: #303134;
+    border-radius: 4px;
+    height: 5vh;
+    width: 9.5vw;
+    font-size: 14px;
+    background-color: #303134;
+    cursor: pointer;
+    color: rgb(213, 213, 213);
+    a {
+      color: rgb(213, 213, 213);
+    }
   }
 }
 
@@ -50,7 +73,7 @@ input[type="text"] {
   background-size: 3.5%;
   background-position: 1vw;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
   padding-left: 3px;
   text-indent: 3.5vw;
 }
