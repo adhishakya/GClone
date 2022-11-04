@@ -15,18 +15,26 @@
     </div>
     <main>
       <img src="/images/google.svg" alt="logo" id="logo" />
-      <form action="https://google.com/search">
-        <div id="searchArea">
-          <input type="text" name="q" autocomplete="off" />
-          <div id="searchOptions">
-            <div id="searches">
-            <input type="submit" value="Google Search" title="Search the Web"/>
-          </form>
-          <form action="https://www.google.com/doodles">
-            <input type="submit" value="I'm Feeling Lucky" class="lucky" />
-          </form>
-        </div>
-      </div>
+      <div id="searches">
+        <form action="https://google.com/search">
+          <div id="searchArea">
+            <input type="text" name="q" autocomplete="off" />
+            <div id="searchOptions">
+              <input
+                type="submit"
+                value="Google Search"
+                title="Search the Web"
+              />
+              <input
+                type="button"
+                value="I'm Feeling Lucky"
+                class="lucky"
+                title="doodles"
+                onclick="lucky();"
+              />
+            </div>
+          </div>
+        </form>
       </div>
     </main>
     <script src="/js/script.js"></script>

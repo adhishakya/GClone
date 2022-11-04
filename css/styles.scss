@@ -134,5 +134,7 @@ main {
 
 #searchOptions {
   display: flex;
-  column-gap: 0.8vw;
+  flex-direction: row;
+  column-gap: 1vw;
+  align-items: center;
 }

@@ -126,6 +126,8 @@ main {
 
 #searchOptions {
   display: flex;
-  -moz-column-gap: 0.8vw;
-       column-gap: 0.8vw;
+  flex-direction: row;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

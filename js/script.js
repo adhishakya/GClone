@@ -15,3 +15,7 @@ darkButton.onclick = () => {
     logo.src = "/images/google.svg";
   }
 };
+
+lucky = () => {
+  window.open("https://www.google.com/doodles", "_blank");
+};
