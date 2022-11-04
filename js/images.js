@@ -7,11 +7,11 @@ darkButton.onclick = () => {
   //Toggling dark mode
   if (darkButton.src.endsWith("/images/moon.png") == true) {
     darkButton.src = "/images/sun.png";
-    logo.src = "/images/googleDark.svg";
+    logo.src = "/images/gimageDark.svg";
   }
   //Toggling light mode
   else if (darkButton.src.endsWith("/images/sun.png") == true) {
     darkButton.src = "/images/moon.png";
-    logo.src = "/images/google.svg";
+    logo.src = "/images/gimage.svg";
   }
 };
