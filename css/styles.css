@@ -6,11 +6,7 @@
   background: #202124;
 }
 .darkMode input[type=text] {
-  height: 6vh;
-  width: 50vw;
-  border-radius: 50px;
-  border: 2px solid rgb(208, 208, 208);
-  font-size: 20px;
+  color: rgb(213, 213, 213);
   background: url(/images/magnifyLight.svg);
   background-size: 3.5%;
   background-position: 1vw;
@@ -18,27 +14,16 @@
   opacity: 0.7;
   padding-left: 3px;
   text-indent: 3.5vw;
-  color: rgb(213, 213, 213);
 }
 .darkMode .lucky, .darkMode input[type=submit] {
   border: #303134;
-  border-radius: 4px;
-  height: 5vh;
-  width: 9.5vw;
-  font-size: 14px;
   background-color: #303134;
-  cursor: pointer;
   color: rgb(213, 213, 213);
 }
 .darkMode .lucky {
   border: #303134;
-  border-radius: 4px;
-  height: 5vh;
-  width: 9.5vw;
-  font-size: 14px;
   background-color: #303134;
   cursor: pointer;
-  color: rgb(213, 213, 213);
 }
 .darkMode .lucky a {
   color: rgb(213, 213, 213);
@@ -122,6 +107,14 @@ main {
 
 #logo {
   margin-left: 34vw;
+}
+
+#searches {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
+  align-items: flex-end;
 }
 
 #searchArea {

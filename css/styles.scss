@@ -10,11 +10,7 @@ $darkLinksColor: rgb(213, 213, 213);
 .darkMode {
   background: #202124;
   input[type="text"] {
-    height: 6vh;
-    width: 50vw;
-    border-radius: 50px;
-    border: $border;
-    font-size: 20px;
+    color: $darkLinksColor;
     background: url(/images/magnifyLight.svg);
     background-size: 3.5%;
     background-position: 1vw;
@@ -22,29 +18,18 @@ $darkLinksColor: rgb(213, 213, 213);
     opacity: 0.7;
     padding-left: 3px;
     text-indent: 3.5vw;
-    color: $darklinkscolor;
   }
   %button {
     border: #303134;
-    border-radius: 4px;
-    height: 5vh;
-    width: 9.5vw;
-    font-size: 14px;
     background-color: #303134;
-    cursor: pointer;
-    color: $darklinkscolor;
+    color: $darkLinksColor;
   }
   .lucky {
     border: #303134;
-    border-radius: 4px;
-    height: 5vh;
-    width: 9.5vw;
-    font-size: 14px;
     background-color: #303134;
     cursor: pointer;
-    color: $darklinkscolor;
     a {
-      color: $darklinkscolor;
+      color: $darkLinksColor;
     }
   }
   #otherSearches {
@@ -131,6 +116,13 @@ main {
 
 #logo {
   margin-left: 34vw;
+}
+
+#searches {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
+  align-items: flex-end;
 }
 
 #searchArea {
