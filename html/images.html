@@ -16,9 +16,20 @@
     </div>
     <main>
       <img src="/images/gimage.svg" alt="logo" id="logo" />
-      <form action="https://google.com/search">
+      <form action="http://www.images.google.com/images">
         <div id="searchArea">
-          <input type="text" name="q" autocomplete="off" />
+          <div id="searchBox">
+            <input type="text" name="q" autocomplete="off" />
+            <label for="camera">
+              <img
+                src="/images/camera.svg"
+                height="35px"
+                width="35px"
+                id="imageSearchButton"
+              />
+              <input type="file" accept="image/*" id="camera" />
+            </label>
+          </div>
           <div id="searchOptions">
             <input
               type="submit"

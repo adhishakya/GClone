@@ -1,3 +1,18 @@
 #darkLight {
   margin-right: 75.6vw;
 }
+
+#camera {
+  visibility: hidden;
+}
+
+#searchBox {
+  display: flex;
+}
+
+label {
+  cursor: pointer;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
