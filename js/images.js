@@ -1,6 +1,7 @@
 let darkButton = document.getElementById("darkLight");
 let logo = document.getElementById("logo");
 let imageSearchButton = document.getElementById("imageSearchButton");
+let imageUpload = document.getElementById("camera");
 
 darkButton.onclick = () => {
   let element = document.body;
@@ -18,3 +19,7 @@ darkButton.onclick = () => {
     imageSearchButton.src = "/images/camera.svg";
   }
 };
+
+imageUpload.addEventListener("change", () => {
+  window.location.replace("https://lens.google.com/search");
+});
