@@ -8,6 +8,7 @@
 
 #searchBox {
   display: flex;
+  margin-left: 2.7vw;
 }
 
 label {
