@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-left: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+#logo {
+  margin-top: 1vh;
+  margin-left: 2vw;
+}
+
+#otherSearches {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5vh;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 49vw;
+}
+#otherSearches a {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 1vw 0 1vw;
+  font-size: 14px;
+  color: rgb(48, 48, 48);
+}
+
+input[type=text] {
+  width: 30vw;
+  height: 3vh;
+}
+
+form {
+  display: table;
+  border-spacing: 0 15px;
+}
+
+p {
+  display: table-row;
+}
+
+span {
+  display: table-cell;
+}
+
+input {
+  margin-left: 2vw;
+  display: table-cell;
+}
+
+#sixAndSeven {
+  display: flex;
+}
+
+#darkLight {
+  margin-top: 55vh;
+  margin-left: 90vw;
+  cursor: pointer;
+}/*# sourceMappingURL=advanced.css.map */

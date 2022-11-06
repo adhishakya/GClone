@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Google</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Google Advanced</title>
+    <link rel="stylesheet" href="/css/advanced.css" />
     <link rel="shortcut icon" href="magnify.svg" type="image/x-icon" />
   </head>
   <body ondragstart="return false;" ondrop="return false;">
-    <div id="otherSearches">
-      <a href="images.html" title="Perform an image search">Images</a>
-      <a href="index.html" title="Go to the homepage">Home</a>
-    </div>
-    <form action="https://google.com/imghp/search">
-      <input type="text" name="q" autocomplete="off" />
-      <input type="submit" value="Google Search" />
-    </form>
+    <nav>
+      <img src="/images/google.svg" alt="" id="logo" height="90px" />
+      <div id="otherSearches">
+        <a href="images.html" title="Perform an image search">Images</a>
+        <a href="index.html" title="Go to the homepage">Home</a>
+      </div>
+    </nav>
+    <hr />
+    <main>
+      <span>Find pages with...</span>
+      <form action="https://www.google.com/search">
+        <div id="searchParameters">
+          <p>
+            <span>all these words:</span>
+            <input type="text" name="as_q" autocomplete="off" />
+          </p>
+          <p>
+            <span>this exact word or phrase:</span>
+            <input type="text" name="as_q" autocomplete="off" />
+          </p>
+          <p>
+            <span>any of these words:</span>
+            <input type="text" name="as_q" autocomplete="off" />
+          </p>
+          <p>
+            <span>all these words:</span>
+            <input type="text" name="as_q" autocomplete="off" />
+          </p>
+          <p>
+            <span>none of these words:</span>
+            <input type="text" name="as_q" autocomplete="off" />
+          </p>
+          <div id="sixAndSeven">
+            <p>
+              <span>numbers ranging from:</span>
+              <input type="text" name="as_q" autocomplete="off" />
+            </p>
+            <p>
+              <span>&nbsp; to</span>
+              <input type="text" name="as_q" autocomplete="off" />
+            </p>
+          </div>
+        </div>
+        <hr />
+        <h4>Then narrow your results by...</h4>
+        <input type="submit" value="Google Search" />
+      </form>
+      <img src="/images/moon.png" alt="" id="darkLight" height="40px" />
+    </main>
   </body>
 </html>
