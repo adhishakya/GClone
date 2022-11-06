@@ -5,7 +5,7 @@
 .darkMode {
   background: #202124;
 }
-.darkMode input[type=text] {
+.darkMode input[type="text"] {
   color: rgb(213, 213, 213);
   background: url(/images/magnifyLight.svg);
   background-size: 3.5%;
@@ -15,7 +15,8 @@
   padding-left: 3px;
   text-indent: 3.5vw;
 }
-.darkMode .lucky, .darkMode input[type=submit] {
+.darkMode .lucky,
+.darkMode input[type="submit"] {
   border: #303134;
   background-color: #303134;
   color: rgb(213, 213, 213);
@@ -40,7 +41,8 @@
   color: #fff;
 }
 
-.lucky, input[type=submit] {
+.lucky,
+input[type="submit"] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;
   height: 5vh;
@@ -55,7 +57,7 @@ a {
   cursor: pointer;
 }
 
-input[type=text] {
+input[type="text"] {
   height: 6vh;
   width: 50vw;
   border-radius: 50px;
@@ -70,7 +72,7 @@ input[type=text] {
   text-indent: 3.5vw;
 }
 
-input[type=submit] {
+input[type="submit"] {
   color: rgb(48, 48, 48);
 }
 
@@ -113,7 +115,7 @@ main {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 1vw;
-       column-gap: 1vw;
+  column-gap: 1vw;
   align-items: flex-end;
 }
 
@@ -128,6 +130,6 @@ main {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 1vw;
-       column-gap: 1vw;
+  column-gap: 1vw;
   align-items: center;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
