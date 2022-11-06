@@ -21,5 +21,7 @@ darkButton.onclick = () => {
 };
 
 imageUpload.addEventListener("change", () => {
-  window.location.replace("https://lens.google.com/search");
+  // let file = imageUpload.files[0];
+  // let imageUrl = URL.createObjectURL(event.target.files[0]);
+  // window.location.replace(`https://lens.google.com/search?p=${imageUrl}`);
 });
