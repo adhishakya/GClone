@@ -15,3 +15,19 @@ darkButton.onclick = () => {
     logo.src = "/images/google.svg";
   }
 };
+
+let selectRegion = document.getElementById("selectRegion");
+
+const options = { method: "GET" };
+
+fetch("https://restcountries.com/v2/all", options)
+  .then((countries) => countries.json())
+  .then((countries) => {
+    let regionOptions = "";
+    countries.forEach((countryName) => {
+      console.log(countryName.name);
+      regionOptions += `<option>${countryName.name}</option>`;
+      selectRegion.innerHTML = regionOptions;
+    });
+  })
+  .catch((err) => console.error(err));

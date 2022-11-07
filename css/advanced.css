@@ -39,6 +39,7 @@ nav {
 input[type=text] {
   width: 30vw;
   height: 3vh;
+  text-indent: 0.5vw;
 }
 
 form {
