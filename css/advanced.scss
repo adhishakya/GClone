@@ -11,8 +11,53 @@ $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 $darkLinksColor: rgb(213, 213, 213);
 
+span {
+  font-size: 14px;
+}
+
+.darkMode {
+  background: #202124;
+  span {
+    color: $darkLinksColor;
+  }
+  h4 {
+    color: $darkLinksColor;
+  }
+  input[type="text"] {
+    color: $darkLinksColor;
+    opacity: 1;
+    padding-left: 3px;
+    text-indent: 3.5vw;
+  }
+  %button {
+    border: #303134;
+    background-color: #303134;
+    color: $darkLinksColor;
+  }
+  .lucky {
+    border: #303134;
+    background-color: #303134;
+    cursor: pointer;
+    a {
+      color: $darkLinksColor;
+    }
+  }
+  #otherSearches {
+    display: flex;
+    flex-direction: row-reverse;
+    a {
+      font-size: $headerLinks;
+      color: #fff;
+    }
+  }
+}
+
 a {
   text-decoration: none;
+}
+
+#firstHeading {
+  margin-bottom: -0.8vh;
 }
 
 nav {
@@ -68,7 +113,8 @@ input {
 }
 
 #darkLight {
-  margin-top: 55vh;
+  margin-top: 5vh;
   margin-left: 90vw;
   cursor: pointer;
+  position: fixed;
 }

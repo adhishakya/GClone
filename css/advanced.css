@@ -6,8 +6,48 @@ main {
   margin-left: 2vw;
 }
 
+span {
+  font-size: 14px;
+}
+
+.darkMode {
+  background: #202124;
+}
+.darkMode span {
+  color: rgb(213, 213, 213);
+}
+.darkMode h4 {
+  color: rgb(213, 213, 213);
+}
+.darkMode input[type=text] {
+  color: rgb(213, 213, 213);
+  opacity: 1;
+  padding-left: 3px;
+  text-indent: 3.5vw;
+}
+.darkMode .lucky {
+  border: #303134;
+  background-color: #303134;
+  cursor: pointer;
+}
+.darkMode .lucky a {
+  color: rgb(213, 213, 213);
+}
+.darkMode #otherSearches {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.darkMode #otherSearches a {
+  font-size: 14px;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
+}
+
+#firstHeading {
+  margin-bottom: -0.8vh;
 }
 
 nav {
@@ -36,7 +76,7 @@ nav {
   color: rgb(48, 48, 48);
 }
 
-input[type="text"] {
+input[type=text] {
   width: 30vw;
   height: 3vh;
   text-indent: 0.5vw;
@@ -65,7 +105,8 @@ input {
 }
 
 #darkLight {
-  margin-top: 55vh;
+  margin-top: 5vh;
   margin-left: 90vw;
   cursor: pointer;
-} /*# sourceMappingURL=advanced.css.map */
+  position: fixed;
+}/*# sourceMappingURL=advanced.css.map */
