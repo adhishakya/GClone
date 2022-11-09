@@ -17,31 +17,18 @@ span {
 
 .darkMode {
   background: #202124;
-  span {
-    color: $darkLinksColor;
-  }
+  span,
   h4 {
     color: $darkLinksColor;
   }
+
   input[type="text"] {
+    background: transparent;
     color: $darkLinksColor;
-    opacity: 1;
-    padding-left: 3px;
-    text-indent: 3.5vw;
+    border: solid $darkLinksColor 1px;
+    text-indent: 0.5vw;
   }
-  %button {
-    border: #303134;
-    background-color: #303134;
-    color: $darkLinksColor;
-  }
-  .lucky {
-    border: #303134;
-    background-color: #303134;
-    cursor: pointer;
-    a {
-      color: $darkLinksColor;
-    }
-  }
+
   #otherSearches {
     display: flex;
     flex-direction: row-reverse;
@@ -49,6 +36,12 @@ span {
       font-size: $headerLinks;
       color: #fff;
     }
+  }
+
+  select {
+    background: #303134;
+    color: $darkLinksColor;
+    border: solid $darkLinksColor 1px;
   }
 }
 
@@ -113,8 +106,8 @@ input {
 }
 
 #darkLight {
-  margin-top: 5vh;
-  margin-left: 90vw;
   cursor: pointer;
   position: fixed;
+  left: 92vw;
+  bottom: 5vh;
 }

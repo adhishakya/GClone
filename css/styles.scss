@@ -7,6 +7,16 @@ $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 $darkLinksColor: rgb(213, 213, 213);
 
+%button {
+  border: $border;
+  border-radius: 4px;
+  height: 5vh;
+  width: 9.5vw;
+  font-size: 14px;
+  background-color: rgb(208, 208, 208);
+  cursor: pointer;
+}
+
 .darkMode {
   background: #202124;
   input[type="text"] {
@@ -43,16 +53,6 @@ $darkLinksColor: rgb(213, 213, 213);
       color: #fff;
     }
   }
-}
-
-%button {
-  border: $border;
-  border-radius: 4px;
-  height: 5vh;
-  width: 9.5vw;
-  font-size: 14px;
-  background-color: rgb(208, 208, 208);
-  cursor: pointer;
 }
 
 a {
