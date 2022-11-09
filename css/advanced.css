@@ -36,7 +36,7 @@ nav {
   color: rgb(48, 48, 48);
 }
 
-input[type=text] {
+input[type="text"] {
   width: 30vw;
   height: 3vh;
   text-indent: 0.5vw;
@@ -68,4 +68,4 @@ input {
   margin-top: 55vh;
   margin-left: 90vw;
   cursor: pointer;
-}/*# sourceMappingURL=advanced.css.map */
+} /*# sourceMappingURL=advanced.css.map */
