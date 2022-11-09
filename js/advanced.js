@@ -25,7 +25,6 @@ fetch("https://restcountries.com/v2/all", options)
   .then((countries) => {
     let regionOptions = "";
     countries.forEach((countryName) => {
-      console.log(countryName.name);
       regionOptions += `<option>${countryName.name}</option>`;
       selectRegion.innerHTML = regionOptions;
     });
