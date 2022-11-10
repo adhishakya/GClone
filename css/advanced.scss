@@ -60,15 +60,16 @@ nav {
 #logo {
   margin-top: 1vh;
   margin-left: 2vw;
+  width: 190px;
 }
 
 #otherSearches {
   display: flex;
   justify-content: center;
-  margin-top: 2.6vh;
+  margin-top: 3vh;
   display: flex;
   flex-direction: row-reverse;
-  margin-left: 49vw;
+  margin-left: 69vw;
   a {
     height: fit-content;
     padding: 0 1vw 0 1vw;
