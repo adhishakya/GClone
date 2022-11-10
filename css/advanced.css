@@ -6,8 +6,14 @@ main {
   margin-left: 2vw;
 }
 
-span {
+input[type=submit] {
+  border: 2px solid rgb(208, 208, 208);
+  border-radius: 4px;
+  height: 5vh;
+  width: 9.5vw;
   font-size: 14px;
+  background-color: rgb(208, 208, 208);
+  cursor: pointer;
 }
 
 .darkMode {
@@ -22,6 +28,11 @@ span {
   color: rgb(213, 213, 213);
   border: solid rgb(213, 213, 213) 1px;
   text-indent: 0.5vw;
+}
+.darkMode input[type=submit] {
+  border: #303134;
+  background-color: #303134;
+  color: rgb(213, 213, 213);
 }
 .darkMode #otherSearches {
   display: flex;
@@ -80,6 +91,10 @@ input[type=text] {
   text-indent: 0.5vw;
 }
 
+input[type=submit] {
+  color: rgb(48, 48, 48);
+}
+
 form {
   display: table;
   border-spacing: 0 17px;
@@ -91,6 +106,7 @@ p {
 
 span {
   display: table-cell;
+  font-size: 14px;
 }
 
 input {
