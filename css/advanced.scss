@@ -78,7 +78,7 @@ nav {
 
 #logo {
   margin-top: 1vh;
-  margin-left: 2vw;
+  margin-left: 1.5vw;
   width: 190px;
 }
 
@@ -112,6 +112,11 @@ input[type="number"] {
   height: 2.9vh;
   border: solid $linksColor 1px;
   text-indent: 0.5vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
 }
 
 #numberInput {
