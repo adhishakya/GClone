@@ -11,6 +11,13 @@ $linksColor: rgb(48, 48, 48);
 $border: 2px solid rgb(208, 208, 208);
 $darkLinksColor: rgb(213, 213, 213);
 
+%darkModeInput {
+  background: transparent;
+  color: $darkLinksColor;
+  border: solid $darkLinksColor 1px;
+  text-indent: 0.5vw;
+}
+
 %button {
   border: $border;
   border-radius: 4px;
@@ -21,6 +28,7 @@ $darkLinksColor: rgb(213, 213, 213);
   cursor: pointer;
 }
 
+// DarkMode section
 .darkMode {
   background: #202124;
   span,
@@ -28,11 +36,9 @@ $darkLinksColor: rgb(213, 213, 213);
     color: $darkLinksColor;
   }
 
-  input[type="text"] {
-    background: transparent;
-    color: $darkLinksColor;
-    border: solid $darkLinksColor 1px;
-    text-indent: 0.5vw;
+  input[type="text"],
+  input[type="number"] {
+    @extend %darkModeInput;
   }
 
   %button {
@@ -56,6 +62,7 @@ $darkLinksColor: rgb(213, 213, 213);
     border: solid $darkLinksColor 1px;
   }
 }
+// End of darkMode section
 
 a {
   text-decoration: none;
@@ -91,11 +98,28 @@ nav {
 }
 
 input[type="text"] {
-  width: 30vw;
+  width: 40vw;
   height: 3vh;
   text-indent: 0.5vw;
   border: solid $linksColor 1px;
   text-indent: 0.5vw;
+  margin-left: 2vw;
+  display: table-cell;
+}
+
+input[type="number"] {
+  width: 18vw;
+  height: 2.9vh;
+  border: solid $linksColor 1px;
+  text-indent: 0.5vw;
+}
+
+#numberInput {
+  margin-left: 3.4vw;
+}
+
+#to {
+  word-spacing: 1.1vw;
 }
 
 input[type="submit"] {
@@ -117,13 +141,9 @@ span {
   font-size: $headerLinks;
 }
 
-input {
-  margin-left: 2vw;
-  display: table-cell;
-}
-
 #sixAndSeven {
   display: flex;
+  flex-direction: row;
 }
 
 #darkLight {

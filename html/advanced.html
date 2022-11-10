@@ -24,29 +24,26 @@
           </p>
           <p>
             <span>this exact word or phrase:</span>
-            <input type="text" name="as_q" autocomplete="off" />
+            <input type="text" name="as_epq" autocomplete="off" />
           </p>
           <p>
             <span>any of these words:</span>
-            <input type="text" name="as_q" autocomplete="off" />
-          </p>
-          <p>
-            <span>all these words:</span>
-            <input type="text" name="as_q" autocomplete="off" />
+            <input type="text" name="as_oq" autocomplete="off" />
           </p>
           <p>
             <span>none of these words:</span>
-            <input type="text" name="as_q" autocomplete="off" />
+            <input type="text" name="as_eq" autocomplete="off" />
           </p>
           <div id="sixAndSeven">
-            <p>
-              <span>numbers ranging from:</span>
-              <input type="text" name="as_q" autocomplete="off" />
-            </p>
-            <p>
-              <span>&nbsp; to</span>
-              <input type="text" name="as_q" autocomplete="off" />
-            </p>
+            <span>numbers ranging from:</span>
+            <input
+              type="number"
+              name="as_nlo"
+              autocomplete="off"
+              id="numberInput"
+            />
+            <span id="to">&nbsp;to&nbsp;</span>
+            <input type="number" name="as_nhi" autocomplete="off" />
           </div>
         </div>
         <hr />

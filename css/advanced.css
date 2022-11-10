@@ -6,7 +6,15 @@ main {
   margin-left: 2vw;
 }
 
-input[type="submit"] {
+.darkMode input[type=text],
+.darkMode input[type=number] {
+  background: transparent;
+  color: rgb(213, 213, 213);
+  border: solid rgb(213, 213, 213) 1px;
+  text-indent: 0.5vw;
+}
+
+input[type=submit] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;
   height: 5vh;
@@ -19,35 +27,23 @@ input[type="submit"] {
 .darkMode {
   background: #202124;
 }
-
 .darkMode span,
 .darkMode h4 {
   color: rgb(213, 213, 213);
 }
-
-.darkMode input[type="text"] {
-  background: transparent;
-  color: rgb(213, 213, 213);
-  border: solid rgb(213, 213, 213) 1px;
-  text-indent: 0.5vw;
-}
-
-.darkMode input[type="submit"] {
+.darkMode input[type=submit] {
   border: #303134;
   background-color: #303134;
   color: rgb(213, 213, 213);
 }
-
 .darkMode #otherSearches {
   display: flex;
   flex-direction: row-reverse;
 }
-
 .darkMode #otherSearches a {
   font-size: 14px;
   color: #fff;
 }
-
 .darkMode select {
   background: #303134;
   color: rgb(213, 213, 213);
@@ -89,15 +85,32 @@ nav {
   color: rgb(48, 48, 48);
 }
 
-input[type="text"] {
-  width: 30vw;
+input[type=text] {
+  width: 40vw;
   height: 3vh;
   text-indent: 0.5vw;
   border: solid rgb(48, 48, 48) 1px;
   text-indent: 0.5vw;
+  margin-left: 2vw;
+  display: table-cell;
 }
 
-input[type="submit"] {
+input[type=number] {
+  width: 18vw;
+  height: 2.9vh;
+  border: solid rgb(48, 48, 48) 1px;
+  text-indent: 0.5vw;
+}
+
+#numberInput {
+  margin-left: 3.4vw;
+}
+
+#to {
+  word-spacing: 1.1vw;
+}
+
+input[type=submit] {
   color: rgb(48, 48, 48);
 }
 
@@ -115,13 +128,9 @@ span {
   font-size: 14px;
 }
 
-input {
-  margin-left: 2vw;
-  display: table-cell;
-}
-
 #sixAndSeven {
   display: flex;
+  flex-direction: row;
 }
 
 #darkLight {
@@ -129,4 +138,4 @@ input {
   position: fixed;
   left: 92vw;
   bottom: 5vh;
-} /*# sourceMappingURL=advanced.css.map */
+}/*# sourceMappingURL=advanced.css.map */
