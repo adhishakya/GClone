@@ -76,11 +76,13 @@ input[type=text] {
   width: 30vw;
   height: 3vh;
   text-indent: 0.5vw;
+  border: solid rgb(48, 48, 48) 1px;
+  text-indent: 0.5vw;
 }
 
 form {
   display: table;
-  border-spacing: 0 15px;
+  border-spacing: 0 17px;
 }
 
 p {

@@ -12,7 +12,7 @@ $border: 2px solid rgb(208, 208, 208);
 $darkLinksColor: rgb(213, 213, 213);
 
 span {
-  font-size: 14px;
+  font-size: $headerLinks;
 }
 
 .darkMode {
@@ -82,11 +82,13 @@ input[type="text"] {
   width: 30vw;
   height: 3vh;
   text-indent: 0.5vw;
+  border: solid $linksColor 1px;
+  text-indent: 0.5vw;
 }
 
 form {
   display: table;
-  border-spacing: 0 15px;
+  border-spacing: 0 17px;
 }
 
 p {
