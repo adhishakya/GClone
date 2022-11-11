@@ -9,8 +9,8 @@ main {
 .darkMode input[type=text],
 .darkMode input[type=number] {
   background: transparent;
-  color: rgb(213, 213, 213);
-  border: solid rgb(213, 213, 213) 1px;
+  color: rgb(189, 189, 189);
+  border: solid rgb(189, 189, 189) 1px;
   text-indent: 0.5vw;
 }
 
@@ -29,12 +29,12 @@ input[type=submit] {
 }
 .darkMode span,
 .darkMode h4 {
-  color: rgb(213, 213, 213);
+  color: rgb(189, 189, 189);
 }
 .darkMode input[type=submit] {
   border: #303134;
   background-color: #303134;
-  color: rgb(213, 213, 213);
+  color: rgb(189, 189, 189);
 }
 .darkMode #otherSearches {
   display: flex;
@@ -46,11 +46,12 @@ input[type=submit] {
 }
 .darkMode select {
   background: transparent;
-  color: rgb(213, 213, 213);
-  border: solid rgb(213, 213, 213) 1px;
+  color: rgb(189, 189, 189);
+  border: solid rgb(189, 189, 189) 1px;
 }
 .darkMode option {
   background-color: #303134;
+  color: rgb(189, 189, 189);
 }
 
 a {
