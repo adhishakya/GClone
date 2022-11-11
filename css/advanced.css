@@ -116,10 +116,6 @@ input::-webkit-inner-spin-button {
   word-spacing: 1.1vw;
 }
 
-input[type=submit] {
-  color: rgb(48, 48, 48);
-}
-
 form {
   display: table;
   border-spacing: 0 17px;
@@ -137,6 +133,20 @@ span {
 #sixAndSeven {
   display: flex;
   flex-direction: row;
+}
+
+select {
+  width: 40.8vw;
+  height: 3.5vh;
+  margin-left: 8.3vw;
+}
+
+#secondHeading {
+  margin-bottom: 1.5vh;
+}
+
+input[type=submit] {
+  color: rgb(48, 48, 48);
 }
 
 #darkLight {
