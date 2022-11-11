@@ -57,9 +57,12 @@ $darkLinksColor: rgb(213, 213, 213);
   }
 
   select {
-    background: #303134;
+    background: transparent;
     color: $darkLinksColor;
     border: solid $darkLinksColor 1px;
+  }
+  option {
+    background-color: #303134;
   }
 }
 // End of darkMode section
@@ -146,13 +149,27 @@ span {
   margin-bottom: 5vh;
 }
 select {
-  width: 40vw;
+  width: 38.8vw;
   height: 3.5vh;
   margin-left: 8.3vw;
 }
 
 #secondHeading {
   margin-bottom: 1.5vh;
+}
+
+#siteOrDomain {
+  width: 38.4vw;
+  margin-left: 8.3vw;
+}
+
+.linkInFilters {
+  color: #335be8;
+}
+
+#safeSearch:hover {
+  color: #335be8;
+  text-decoration: underline;
 }
 
 input[type="submit"] {

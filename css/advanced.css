@@ -45,9 +45,12 @@ input[type=submit] {
   color: #fff;
 }
 .darkMode select {
-  background: #303134;
+  background: transparent;
   color: rgb(213, 213, 213);
   border: solid rgb(213, 213, 213) 1px;
+}
+.darkMode option {
+  background-color: #303134;
 }
 
 a {
@@ -137,13 +140,27 @@ span {
 }
 
 select {
-  width: 40vw;
+  width: 38.8vw;
   height: 3.5vh;
   margin-left: 8.3vw;
 }
 
 #secondHeading {
   margin-bottom: 1.5vh;
+}
+
+#siteOrDomain {
+  width: 38.4vw;
+  margin-left: 8.3vw;
+}
+
+.linkInFilters {
+  color: #335be8;
+}
+
+#safeSearch:hover {
+  color: #335be8;
+  text-decoration: underline;
 }
 
 input[type=submit] {
