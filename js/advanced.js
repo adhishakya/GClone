@@ -1,20 +1,33 @@
+let darkMode = localStorage.getItem("darkMode");
 let darkButton = document.getElementById("darkLight");
 let logo = document.getElementById("logo");
 
-darkButton.onclick = () => {
-  let element = document.body;
-  element.classList.toggle("darkMode");
-  //Toggling dark mode
-  if (darkButton.src.endsWith("/images/moon.png") == true) {
-    darkButton.src = "/images/sun.png";
-    logo.src = "/images/advancedLogoDark.svg";
-  }
-  //Toggling light mode
-  else if (darkButton.src.endsWith("/images/sun.png") == true) {
-    darkButton.src = "/images/moon.png";
-    logo.src = "/images/advancedLogo.svg";
-  }
+let enableDarkMode = () => {
+  document.body.classList.add("darkMode");
+  darkButton.src = "/images/sun.png";
+  logo.src = "/images/advancedLogoDark.svg";
+  localStorage.setItem("darkMode", "true");
 };
+
+let disableDarkMode = () => {
+  document.body.classList.remove("darkMode");
+  darkButton.src = "/images/moon.png";
+  logo.src = "/images/advancedLogo.svg";
+  localStorage.setItem("darkMode", "false");
+};
+
+if (darkMode === "true") {
+  enableDarkMode();
+}
+
+darkButton.addEventListener("click", () => {
+  darkMode = localStorage.getItem("darkMode");
+  if (darkMode != "true") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});
 
 let selectRegion = document.getElementById("selectRegion");
 
