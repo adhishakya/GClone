@@ -2,8 +2,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   margin-left: 2vw;
+}
+
+hr {
+  width: 100%;
 }
 
 .darkMode input[type=text],
@@ -14,7 +22,7 @@ main {
   text-indent: 0.5vw;
 }
 
-input[type=submit] {
+#backToTop, input[type=submit] {
   border: 2px solid rgb(208, 208, 208);
   border-radius: 4px;
   height: 5vh;
@@ -31,7 +39,7 @@ input[type=submit] {
 .darkMode h4 {
   color: rgb(189, 189, 189);
 }
-.darkMode input[type=submit] {
+.darkMode #backToTop, .darkMode input[type=submit] {
   border: #303134;
   background-color: #303134;
   color: rgb(189, 189, 189);
@@ -183,4 +191,14 @@ input[type=submit] {
   position: fixed;
   left: 92vw;
   bottom: 5vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#backToTop {
+  margin-top: 4vh;
 }/*# sourceMappingURL=advanced.css.map */
