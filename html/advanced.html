@@ -51,7 +51,7 @@
           <h4 id="secondHeading">Then narrow your results by...</h4>
           <p>
             <span>language:</span>
-            <select id="languages" name="languages">
+            <select id="languages" name="lr">
               <option>any language</option>
               <option value="af">Afrikaans</option>
               <option value="ar">Arabic</option>
@@ -103,11 +103,11 @@
           </p>
           <p>
             <span>region:</span>
-            <select name="" id="selectRegion"></select>
+            <select name="cr" id="selectRegion"></select>
           </p>
           <p>
             <span>last update:</span>
-            <select name="" id="lastUpdate">
+            <select name="as_qdr" id="lastUpdate">
               <option value="updateAnyDay">anytime</option>
               <option value="updateLastDay">past 24 hours</option>
               <option value="updateLastWeek">past week</option>
@@ -117,7 +117,22 @@
           </p>
           <p>
             <span>site or domain:</span>
-            <input type="text" name="" id="siteOrDomain" />
+            <input
+              type="text"
+              name="as_sitesearch"
+              id="siteOrDomain"
+              autocomplete="off"
+            />
+          </p>
+          <p>
+            <span>terms appearing:</span>
+            <select name="as_occt" id="">
+              <option value="anywhereOfPage">anywhere in the page</option>
+              <option value="titleOfPage">in the title of the page</option>
+              <option value="textOfPage">in the text of the page</option>
+              <option value="urlOfPage">in the url of the page</option>
+              <option value="linksOfPage">in links to the page</option>
+            </select>
           </p>
           <p>
             <span
@@ -128,14 +143,14 @@
                 >SafeSearch:</a
               ></span
             >
-            <select name="" id="explicitOrNot">
+            <select name="safe" id="explicitOrNot">
               <option value="explicitYes">Show explicit results</option>
               <option value="explicitNo">Hide explicit results</option>
             </select>
           </p>
           <p>
             <span>file type:</span>
-            <select name="" id="fileType">
+            <select name="as_filetype" id="fileType">
               <option value="defaultFileType">any format</option>
               <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
               <option value="ps">Adobe Postscript (.ps)</option>
@@ -158,7 +173,7 @@
                 >usage rights:</a
               >
             </span>
-            <select name="" id="usageRights">
+            <select name="tbs" id="usageRights">
               <option value="notFilterByLicense">
                 not filtered by licence
               </option>
