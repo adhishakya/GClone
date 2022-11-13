@@ -157,10 +157,11 @@ span {
   flex-direction: row;
   margin-bottom: 5vh;
 }
+
 select {
-  width: 38.8vw;
+  width: 40.3vw;
   height: 3.5vh;
-  margin-left: 8.3vw;
+  margin-left: 5.9vw;
 }
 
 #secondHeading {
@@ -168,8 +169,8 @@ select {
 }
 
 #siteOrDomain {
-  width: 38.4vw;
-  margin-left: 8.3vw;
+  width: 39.9vw;
+  margin-left: 5.9vw;
 }
 
 .linkInFilters {
@@ -213,4 +214,7 @@ footer {
   @extend %button;
   margin-top: 4vh;
   margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
