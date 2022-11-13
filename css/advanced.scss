@@ -176,6 +176,16 @@ select {
 input[type="submit"] {
   @extend %button;
   color: $linksColor;
+  margin-top: 1.5vh;
+  margin-left: 43.8vw;
+  margin-bottom: 3vh;
+}
+
+#extraOptions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  margin-bottom: 5vh;
 }
 
 #darkLight {
