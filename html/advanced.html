@@ -52,7 +52,7 @@
           <p>
             <span>language:</span>
             <select id="languages" name="lr">
-              <option>any language</option>
+              <option value="">any language</option>
               <option value="af">Afrikaans</option>
               <option value="ar">Arabic</option>
               <option value="hy">Armenian</option>
@@ -108,11 +108,11 @@
           <p>
             <span>last update:</span>
             <select name="as_qdr" id="lastUpdate">
-              <option value="updateAnyDay">anytime</option>
-              <option value="updateLastDay">past 24 hours</option>
-              <option value="updateLastWeek">past week</option>
-              <option value="updateLastMonth">past month</option>
-              <option value="updateLastYear">past year</option>
+              <option value="all">anytime</option>
+              <option value="d">past 24 hours</option>
+              <option value="w">past week</option>
+              <option value="m">past month</option>
+              <option value="y">past year</option>
             </select>
           </p>
           <p>
@@ -127,11 +127,11 @@
           <p>
             <span>terms appearing:</span>
             <select name="as_occt" id="">
-              <option value="anywhereOfPage">anywhere in the page</option>
-              <option value="titleOfPage">in the title of the page</option>
-              <option value="textOfPage">in the text of the page</option>
-              <option value="urlOfPage">in the url of the page</option>
-              <option value="linksOfPage">in links to the page</option>
+              <option value="any">anywhere in the page</option>
+              <option value="title">in the title of the page</option>
+              <option value="body">in the text of the page</option>
+              <option value="url">in the url of the page</option>
+              <option value="links">in links to the page</option>
             </select>
           </p>
           <p>
@@ -144,14 +144,14 @@
               ></span
             >
             <select name="safe" id="explicitOrNot">
-              <option value="explicitYes">Show explicit results</option>
-              <option value="explicitNo">Hide explicit results</option>
+              <option value="images">Show explicit results</option>
+              <option value="active">Hide explicit results</option>
             </select>
           </p>
           <p>
             <span>file type:</span>
             <select name="as_filetype" id="fileType">
-              <option value="defaultFileType">any format</option>
+              <option value="">any format</option>
               <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
               <option value="ps">Adobe Postscript (.ps)</option>
               <option value="dwf">Autodesk DWF (.dwf)</option>
@@ -174,17 +174,13 @@
               >
             </span>
             <select name="tbs" id="usageRights">
-              <option value="notFilterByLicense">
-                not filtered by licence
-              </option>
-              <option value="freeToUse">free to use or share</option>
-              <option value="freeToUseCommercial">
+              <option value="">not filtered by licence</option>
+              <option value="sur:f">free to use or share</option>
+              <option value="sur:fc">
                 free to use or share, even commercially
               </option>
-              <option value="freeToUseAndModify">
-                free to use, share, or modify
-              </option>
-              <option value="freeToUseAndModifyCommercial">
+              <option value="sur:fm">free to use, share, or modify</option>
+              <option value="sur:fmc">
                 free to use, share, or modify, even commercially
               </option>
             </select>

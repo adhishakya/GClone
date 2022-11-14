@@ -37,10 +37,11 @@ fetch("https://restcountries.com/v2/all", options)
   .then((countries) => countries.json())
   .then((countries) => {
     let regionOptions = "";
-    regionOptions += `<option>any region</option>`;
+    regionOptions += `<option value="">any region</option>`;
     selectRegion.innerHTML = regionOptions;
     countries.forEach((countryName) => {
-      regionOptions += `<option>${countryName.name}</option>`;
+      alphaCode = countryName.alpha2Code;
+      regionOptions += `<option value="country${alphaCode}">${countryName.name}</option>`;
       selectRegion.innerHTML = regionOptions;
     });
   })
