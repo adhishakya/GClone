@@ -17,6 +17,5 @@ Home Page
 Advanced Search Page
 
 ![image](https://user-images.githubusercontent.com/110772532/226091423-384da822-c4a6-4f05-830c-bd0131fd3c68.png)
-
 ![image](https://user-images.githubusercontent.com/110772532/226091440-78ba561f-6185-49e5-aa67-e7fb630234ad.png)
 
